@@ -463,7 +463,6 @@ html {
 }
 
 .modal-label {
-    display:flex;
     font-size: 15px;
     margin-bottom: 12px;
     flex-direction: row;
@@ -471,6 +470,7 @@ html {
 
 .map-pic {
     width: 240px;
+    float: left;
 }
 
 .ti-shopping-cart {
@@ -558,6 +558,7 @@ html {
    display: inline-flex;
    align-items: center;
    cursor: pointer;
+   flex-wrap: wrap;
 }
 
 .radio_input {

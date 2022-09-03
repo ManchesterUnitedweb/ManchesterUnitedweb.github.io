@@ -107,6 +107,67 @@
     .contact-form {
         margin-top: 32px ;
     }
+
+    .contact-letter {
+        display: flex;
+    }
+
+    .modal-header {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .modal-body {
+        padding: 12px;
+    }
+
+    .ti-shopping-cart{
+        font-size: 20px;
+    }
+
+    .map-pic {
+        width: 150px;
+        vertical-align: middle;
+    }
+
+    .radio-letter {
+        font-size: 12px;
+    }
+
+    .radio_radio {
+        width: 15px;
+        height: 15px;
+    }
+
+    .modal-input {
+        border: 0.5px solid #ccc;
+        width: 100%;
+        padding: 6px;
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+
+    #buy-tickets {
+        font-size: 12px;
+        padding: 15px;
+    }
+
+    .modal-footer {
+        padding: 10px;
+    }
 }
 
+@media (max-height: 37.5em) {
+    .map-pic{
+        display: none;
+    }
+
+    .resp-modal {
+        display: none;
+    }
+
+    .modal-footer {
+        display: none;
+    }
+}
 
