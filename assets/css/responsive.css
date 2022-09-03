@@ -157,6 +157,25 @@
     }
 }
 
+@media (max-height: 45em){
+    .modal-header {
+        height: 90px;
+        font-size: 28px;
+    }
+
+    .map-pic {
+        width: 200px;
+    }
+
+    .modal-input {
+        border: 0.5px solid #ccc;
+        width: 100%;
+        padding: 6px;
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+}
+
 @media (max-height: 37.5em) {
     .map-pic{
         display: none;
