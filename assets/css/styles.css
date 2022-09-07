@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+*::selection {
+    background-color: #FF5A09 ;
+}
+
 html {
     scroll-behavior: smooth;
     font-family: Helvetica, Arial, sans-serif;
