@@ -72,6 +72,15 @@
         padding: 5px 41px;
     }
 
+    #slider .text-content {
+        height: 25vw;
+    }
+
+    .text-content:active .text-sub-description{
+        font-size: 3vw;
+    }
+    
+
     .text-desc {
         font-size: 8vw;
         bottom: 10vw;
