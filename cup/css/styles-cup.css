@@ -220,19 +220,23 @@ html {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    opacity: 0.8;
+    opacity: 0.7;
+    margin-bottom: 50px;
 }
 
 .desc-cup-first {
-    width: 60%;
+    width: 40%;
     font-size: 24px;
     margin-bottom: 20px;
+    line-height: 32px;
     color: #232323;;
 }
 
 .desc-cup-sec {
-    width: 60%;
+    width: 40%;
     font-size: 20px;
+    line-height: 30px;
+    font-weight: 100;
     margin-bottom: 5px;
     color: #232323;;
 }
@@ -242,7 +246,7 @@ html {
     padding: 64px 16px;
     margin-top: 20px;
     text-align: center;
-    background: linear-gradient(45deg, black, transparent);
+    background: linear-gradient(45deg, #D8B5FF,#1EAE98);;
 }
 
 #footer .socials-list {
