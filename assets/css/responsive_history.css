@@ -20,6 +20,14 @@
     .form-info {
         line-height: 2;
     }
+
+    #nav > li > a { 
+        font-size: 1.75vw;
+    }
+
+    #nav .subnav a, #nav .subnav-history a {
+        font-size: 1.75vw;
+    }
 }
 
 /* Mobile */
@@ -62,12 +70,14 @@
         width: 91%;
     }
 
-    #nav .subnav {
+    #nav .subnav,
+    #nav .subnav-history {
         position: initial;
         background-color: #d24b5025;
     }
 
-    #nav .subnav a{
+    #nav .subnav a,
+    #nav .subnav-history a{
         color: #fff;
         padding: 5px 41px;
     }
@@ -77,9 +87,8 @@
     }
 
     .text-content:active .text-sub-description{
-        font-size: 3vw;
+        font-size: 3.3vw;
     }
-    
 
     .text-desc {
         font-size: 8vw;
@@ -87,6 +96,18 @@
     }
     .open-button,
     .close-button {
+        font-size: 5vw;
+    }
+
+    .first-desc {
+        font-size: 20px;
+    }
+
+    .sec-desc {
+        font-size: 15px;
+    }
+
+    .text-desc-achv {
         font-size: 5vw;
     }
 }
